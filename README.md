@@ -7,5 +7,5 @@ Hosting my portfolio website in this repository
 
 
 
-All the content and the dependencies required for my portfolio is stored here.
+All the required content and the dependencies for my portfolio will be stored here.
 
