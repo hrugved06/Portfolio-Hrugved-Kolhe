@@ -1,0 +1,67 @@
+[ 
+    
+    
+    {
+        "id": 1,
+        "name": "Machine Learning Models",
+        "desc": "In this repository, you will find the projects like Chatbot, SMS Spam Classifier, YouTube Comment Classifier, etc.",
+        "image": "https://res.cloudinary.com/hrugved/image/upload/v1627583078/MLprojects_lhvbiq.jpg",
+        "links": {
+            "view": "https://github.com/hrugved06/ML-Projects/blob/master/README.md",
+            "code": "https://github.com/hrugved06/ML-Projects"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Making of a Discord bot!",
+        "desc": "This repository contains the dependencies required to create the Discbot.ai Model. This model chats with you dependeng upon the scripts with which it is trained.",
+        "image": "https://res.cloudinary.com/hrugved/image/upload/v1627583078/Discordbot_bkvwlk.jpg",
+        "links": {
+            "view": "https://github.com/hrugved06/Discbot_ai/blob/main/README.md",
+            "code": "https://github.com/hrugved06/Discbot_ai/tree/main/Discbot.ai"
+        }
+    },
+    {
+        "id": 3,
+        "name": "My Open Source Contributions.",
+        "desc": "In this project, you will find the repositories wich i have contributed to and added the tutorials in Machine Learning and NLP section.",
+        "image": "https://res.cloudinary.com/hrugved/image/upload/v1627583079/OSS_mvyvu6.png",
+        "links": {
+            "view": "https://github.com/DevIncept-Contribution-Program-21",
+            "code": "https://github.com/DevIncept-Contribution-Program-21"
+        }
+    },
+    {
+        "id": 4,
+        "name": "Portfolio Website.",
+        "desc": "My portfolio Website. In this, I have used HTML, CSS, Javascript and Github extensively to make the website.",
+        "image": "https://res.cloudinary.com/hrugved/image/upload/v1627583078/website_spqeyh.jpg",
+        "links": {
+            "view": "https://github.com/hrugved06/hrugved06.github.io",
+            "code": "https://github.com/hrugved06/hrugved06.github.io"
+        }
+    },
+    
+    {
+        "id": 5,
+        "name": "Face Detection Model.",
+        "desc": "This project contains the Face Detection Model created using OpenCV.",
+        "image": "https://res.cloudinary.com/hrugved/image/upload/v1627583078/Face_detection_old605.jpg",
+        "links": {
+            "view": "https://github.com/hrugved06/ML-DL-Projects/blob/master/Face%20detection%20using%20OpenCV/README.md",
+            "code": "https://github.com/hrugved06/ML-DL-Projects/tree/master/Face%20detection%20using%20OpenCV"
+        }
+    },
+
+    {
+        "id": 6,
+        "name": "Machine Learning Algorithms.",
+        "desc": "Here, I upload a detailed tutorial of the Machine Learning Algorithms along with the datasets and image references",
+        "image": "https://res.cloudinary.com/hrugved/image/upload/v1627583078/ml_vw94m8.png",
+        "links": {
+            "view": "https://github.com/hrugved06?tab=repositories",
+            "code": "https://github.com/hrugved06/ML-Algos"
+        }
+    }
+    
+]
