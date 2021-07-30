@@ -1,11 +1,15 @@
 # Portfolio-Hrugved-Kolhe
 Hosting my portfolio website in this repository
 
+To perview the website [click here!](https://hrugved06.github.io/Portfolio-Hrugved-Kolhe/)
+
 # Glad you came here, thanks for showing up!
 
-## Welcome everyone and Hello, this is Hrugved Kolhe.
+## Hello, this is Hrugved Kolhe.
 
 
 
 All the required content and the dependencies for my portfolio will be stored here.
+
+Work in progress, stay tuned✌🏻
 

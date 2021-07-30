@@ -46,7 +46,7 @@ function(){
     }
     else {
         document.title = "Hrugved is calling you back!";
-        $("#favicon").attr("href","assests/images/cmsoon.png");
+        $("#favicon").attr("href","assests/images/sticker2.png");
     }
 });
 
