@@ -21,11 +21,11 @@ document.addEventListener('visibilitychange',
 function(){
     if(document.visibilityState === "visible"){
         document.title = "Projects 🔆 Hrugved Kolhe";
-        $("#favicon").attr("href","assests/images/workmain.png");
+        $("#favicon").attr("href","workmain.png");
     }
     else {
         document.title = "Hrugved is calling you back!";
-        $("#favicon").attr("href","assests/images/sticker2.png");
+        $("#favicon").attr("href","sticker2.png");
     }
 });
 
