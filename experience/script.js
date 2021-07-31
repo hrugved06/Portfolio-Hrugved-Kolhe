@@ -68,10 +68,10 @@ document.addEventListener('visibilitychange',
 function(){
     if(document.visibilityState === "visible"){
         document.title = "Experience 🔆 Hrugved Kolhe";
-        $("#favicon").attr("href","/assests/images/tryexp.png");
+        $("#favicon").attr("href","assests/images/tryexp.png");
     }
     else {
         document.title = "Hrugved is calling you back!";
-        $("#favicon").attr("href","/assests/images/sticker2.png");
+        $("#favicon").attr("href","assests/images/sticker2.png");
     }
 });
