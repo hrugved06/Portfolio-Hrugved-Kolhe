@@ -941,7 +941,8 @@ header .navbar ul li a:hover{
   border-radius: .5em;
   transition: 0.5s;
   color: #fff;
-  background: #160175fa;
+  background: #120044;
+  border: 2px solid rgb(0, 0, 0);
   box-shadow: 0px 5px 10px rgba(48, 68, 247, .6);
   text-align: center;
 }
@@ -956,7 +957,9 @@ header .navbar ul li a:hover{
   transition: 0.3s;
 }
 .morebtn .btn:hover{
-  background: #120044;
+  background: #fff0d9;
+  color: #000;
+  border: 2px solid rgb(0, 0, 0);
 }
 .morebtn .btn:hover i {
   transform: translateX(10px);
@@ -1115,12 +1118,14 @@ form .button-area{
   border-radius: 5px;
   padding: 13px 25px;
   background: #160079;
+  border: 2px solid rgb(255, 153, 0);
   box-shadow: 0px 5px 10px rgba(48, 68, 247, .6);
   transition: 0.3s ease;
   font-family: 'Nunito',sans-serif;
 }
 .button-area button:hover{
   background: #421cecf5;
+  border: 2px solid rgb(0, 0, 0);
 }
 .button-area span{
   font-size: 17px;
