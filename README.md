@@ -1,16 +1,18 @@
 # 🔆Portfolio-Hrugved-Kolhe🔆
 Hosting my portfolio website in this repository
 
-The [website](https://hrugved06.github.io/Portfolio-Hrugved-Kolhe/) is currently in the testing phase. I'm currently Working on the benchmarks and the performance metrics.
+The [website](https://hrugved06.github.io/Portfolio-Hrugved-Kolhe/) is currently in the testing phase. I'm currently Working on the benchmarks and the performance metrics of the website.
 
-To perview the website [click here!](https://hrugved06.github.io/Portfolio-Hrugved-Kolhe/)
+To perview the website [click here!](https://hrugved06.github.io/Portfolio-Hrugved-Kolhe/) </br> </br>
+
+![Website Frontpage Preview.](https://github.com/hrugved06/Portfolio-Hrugved-Kolhe/blob/main/holdings/images/projects/websitefpp.jpeg)
 
 
 </br>
 <hr style="height:2px;#8080ffborder-width:0;border-radius: 5px;color:gray;background-color:#8080ff">
 </br>
 
-## Glad you came here, thanks for showing up!
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30px">&nbsp;**Glad you came here, thanks for showing up!**
 
 ### **Hello <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px"> , this is Hrugved Kolhe.**
 
