@@ -500,7 +500,7 @@ header .navbar ul li a:hover{
 }
 .skills .container .col .bar:hover{
   transform: translateX(12px);
-  box-shadow: 0 5px 8px rgb(0, 175, 117);
+  box-shadow: 0 5px 8px rgb(196, 247, 230);
 }
 .skills .container .col .bar .info{
   display: flex;
@@ -578,7 +578,7 @@ header .navbar ul li a:hover{
 }
 .skills .container .col .bar .event:before{
   width: 85%;
-  background: #810056;
+  background: #dd0000;
 }
 
 /* skills media queries starts*/
