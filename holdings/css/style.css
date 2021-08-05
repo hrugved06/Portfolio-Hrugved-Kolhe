@@ -550,7 +550,7 @@ header .navbar ul li a:hover{
 }
 .skills .container .col .bar .web:before{
   width: 70%;
-  background: #8054c7;
+  background: #5b00c4;
 }
 .skills .container .col .bar .python:before{
   width: 90%;
@@ -571,6 +571,14 @@ header .navbar ul li a:hover{
 .skills .container .col .bar .jupyter:before{
   width: 90%;
   background: #ffae00;
+}
+.skills .container .col .bar .mentoring:before{
+  width: 80%;
+  background: #00aa09;
+}
+.skills .container .col .bar .event:before{
+  width: 85%;
+  background: #810056;
 }
 
 /* skills media queries starts*/
