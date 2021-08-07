@@ -44,11 +44,11 @@
     
     {
         "id": 5,
-        "name": "Face Detection Model.",
-        "desc": "This project contains the Face Detection Model created using OpenCV.",
+        "name": "Computer Vision Model.",
+        "desc": "This project contains the Face Detection Model created using OpenCV and other computer vision projects",
         "image": "https://res.cloudinary.com/hrugved/image/upload/v1627583078/Face_detection_old605.jpg",
         "links": {
-            "view": "https://github.com/hrugved06/ML-DL-Projects/blob/master/Face%20detection%20using%20OpenCV/README.md",
+            "view": "https://github.com/hrugved06/ML-DL-Projects",
             "code": "https://github.com/hrugved06/ML-DL-Projects/tree/master/Face%20detection%20using%20OpenCV"
         }
     },
