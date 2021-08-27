@@ -42,7 +42,7 @@ document.addEventListener('visibilitychange',
 function(){
     if(document.visibilityState === "visible"){
         document.title = "Portfolio 🔆 Hrugved Kolhe";
-        $("#favicon").attr("href","holdings/images/prof.jpg");
+        $("#favicon").attr("href","holdings/images/prof.png");
     }
     else {
         document.title = "Hrugved is calling you back!";
