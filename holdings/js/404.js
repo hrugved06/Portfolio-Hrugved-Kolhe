@@ -60,15 +60,27 @@ document.onkeydown = function(e) {
      return false;
   }
   if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+    alert ("Inspect action disabled 😉");
      return false;
   }
   if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+    alert ("Action not allowed");
      return false;
   }
   if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+    alert ("Action not allowed");
      return false;
   }
   if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+    alert ("Code Viewer disabled 😉");
      return false;
   }
+  if(e.ctrlKey && e.keyCode == 'S'.charCodeAt(0)) {
+    alert ("Page save Prohibited");
+     return false;
+  }
+  if(e.ctrlKey && e.keyCode == 'A'.charCodeAt(0)) {
+    alert ("Text selection Disabled");
+    return false;
+ }
 }
