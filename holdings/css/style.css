@@ -414,8 +414,8 @@ header .navbar ul li a:hover{
   border-radius: .5em;
   transition: 0.3s;
   color: #fff;
-  background: #ff7c01;
-  border: 2px solid rgb(0, 0, 0);
+  background: #00084e;
+  border: 2px solid rgb(255, 145, 0);
   box-shadow: 0px 5px 10px rgba(0, 85, 71, 0.6);
   font-family: 'Nunito', sans-serif;
 }
@@ -430,9 +430,9 @@ header .navbar ul li a:hover{
   transition: 0.3s;
 }
 .resumebtn .btn:hover{
-  background: #00084e;
+  background: #ff7c01;
   color: rgb(255, 255, 255);
-  border: 2px solid rgb(255, 154, 3);
+  border: 2px solid rgb(2, 0, 92);
 }
 .resumebtn .btn:hover i {
   transform: translateX(5px);
@@ -644,7 +644,7 @@ header .navbar ul li a:hover{
 }
 .education .box-container .box:hover{
   transform: scale(1.03);
-  box-shadow: 1rem .5rem 1.2rem rgba(0, 0, 0, .3);
+  box-shadow: 1rem .5rem 1.2rem rgba(0, 0, 0, 0.534);
 }
 .education .box-container .box .image{
   flex: 1 1 20rem;
@@ -952,7 +952,7 @@ header .navbar ul li a:hover{
   transition: 0.5s;
   color: #fff;
   background: #120044;
-  border: 2px solid rgb(0, 0, 0);
+  border: 2px solid rgb(230, 255, 4);
   box-shadow: 0px 5px 10px rgba(48, 68, 247, .6);
   text-align: center;
 }
@@ -1128,7 +1128,7 @@ form .button-area{
   border-radius: 5px;
   padding: 13px 25px;
   background: #160079;
-  border: 2px solid rgb(255, 153, 0);
+  border: 2px solid rgb(229, 255, 0);
   box-shadow: 0px 5px 10px rgba(48, 68, 247, .6);
   transition: 0.3s ease;
   font-family: 'Nunito',sans-serif;
@@ -1303,7 +1303,8 @@ form .button-area{
   padding: 1rem 1.5rem;
   font-size: 2rem;
   background: #ff9b18;
-  color: rgb(13, 0, 44);
+  border: 2px solid rgb(50, 0, 97);
+  color: rgb(4, 0, 44);
   border-radius: 50%;
   transition: 1s linear;
   z-index: 1000;
