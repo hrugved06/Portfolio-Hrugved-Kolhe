@@ -350,6 +350,16 @@ header .navbar ul li a:hover{
 .about {
   background: rgb(255, 255, 255);
 }
+
+.about .quote{
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  margin-top: .5rem;
+  font-size: 20px;
+}
+
 .about .row{
   display: flex;
   flex-direction: row;
@@ -615,7 +625,7 @@ header .navbar ul li a:hover{
   background: #e5ecfb;
   min-height: 80vh;
 }
-.education .qoute{
+.education .quote{
   font-size: 1.5rem;
   text-align: center;
   font-family: 'Nunito', sans-serif;
