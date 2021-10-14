@@ -375,7 +375,7 @@ header .navbar ul li a:hover{
   margin: 4rem;
   width: 30rem;
   border-radius: 5%;
-  box-shadow: 0 5px 10px rgba(93, 0, 136, 0.6);
+  box-shadow: 0 5px 10px rgba(48, 68, 247, .6);
   mix-blend-mode:luminosity;
   transition: .3s;
   cursor: pointer;
@@ -447,6 +447,104 @@ header .navbar ul li a:hover{
 .resumebtn .btn:hover i {
   transform: translateX(5px);
 }
+
+/* Quote API starts */
+
+.quote_api {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  border: 2px solid #000000;
+  background-color: rgb(208, 255, 190);
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+
+.quote_api h1 span{
+  color: #004db3;
+  font-weight: bolder;
+}
+
+.quote_api p span{
+  color: #ff9100;
+  font-weight: bolder;
+  text-shadow: 2px 1px 4px #000;
+}
+
+#tit {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+#para{
+  padding-bottom: 10px;
+}
+
+#random_quote{
+  padding-bottom: 10px;
+  color: #120044;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#get-activity{
+  font-size: 20px;
+}
+
+.quote-btn {
+  position: relative;
+  line-height: 0;
+  padding: 0.5rem 1.1rem;
+  border-radius: .5em;
+  transition: 0.5s;
+  color: #fff;
+  background: #120044;
+  border: 2px solid rgb(230, 255, 4);
+  box-shadow: 0px 5px 5px rgba(48, 68, 247, .6);
+  font-family: 'Poppins', sans-serif;
+}
+.quote-btn:hover {
+  background: #fcad37;
+  color: #000;
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: 0px 5px 10px rgba(48, 68, 247, .6);
+}
+.quote-btn:active {
+  background: #b2ff5b;
+  color: #000;
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: 0px 5px 10px rgba(48, 68, 247, .6);
+  transform: translateY(5px);
+}
+
+.twitter-btn {
+  position: relative;
+  line-height: 0;
+  padding: 0.2rem 1.1rem;
+  border-radius: .5em;
+  transition: 0.5s;
+  font-size: 18px;
+  color: #fff;
+  background: #120044;
+  border: 2px solid rgb(230, 255, 4);
+  box-shadow: 0px 5px 5px rgba(48, 68, 247, .6);
+}
+.twitter-btn:hover {
+  background: #fcad37;
+  color: #000;
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: 0px 5px 10px rgba(48, 68, 247, .6);
+}
+.twitter-btn:active {
+  background: #b2ff5b;
+  color: #000;
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: 0px 5px 10px rgba(48, 68, 247, .6);
+  transform: translateY(10px);
+}
+
+/* Quote API Ends */
+
 /* about media queries starts*/
 @media screen and (max-width: 600px){
   .about .row .image{
