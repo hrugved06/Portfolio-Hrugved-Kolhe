@@ -5,7 +5,7 @@ The [website](https://hrugved06.github.io/Portfolio-Hrugved-Kolhe/) is currently
 
 To perview the website [click here!](https://hrugved06.github.io/Portfolio-Hrugved-Kolhe/) </br> </br>
 
-![Website Frontpage Preview.](https://raw.githubusercontent.com/hrugved06/Portfolio-Hrugved-Kolhe/main/holdings/images/projects/website.gif?token=AOJQLX3G4L6V4CATNC5UYXTBJ6NSO)
+![Website Frontpage Preview.](./holdings/images/projects/website.gif)
 
 ### Tool used for Live chat [tawk.to](https://tawk.to/chat/61001d75d6e7610a49ad3be2/1fbk764uk) API
 
