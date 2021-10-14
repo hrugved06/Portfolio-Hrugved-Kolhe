@@ -38,6 +38,36 @@ $(document).ready(function(){
     })
 });
 
+//=============================================== Forismatic API ===============================================================
+
+function randomQuote() {
+    $.ajax({
+        url: "https://api.forismatic.com/api/1.0/?",
+        dataType: "jsonp",
+        data: "method=getQuote&format=jsonp&lang=en&jsonp=?",
+        success: function( response ) {
+          $("#random_quote").html("<p id='random_quote'>" +
+            response.quoteText + "<br/>&dash; " + response.quoteAuthor + " &dash;</p>");
+          $("#tweet").attr("href", "https://twitter.com/home/?status=" + response.quoteText +
+            ' (' + response.quoteAuthor + ')');
+        }
+    });
+  }
+  document.getElementById("get-activity").addEventListener("click", function(){
+    $(function() {
+      randomQuote();
+    });
+  })
+  
+  $("button").click(function(){
+    randomQuote();
+  });
+  
+//==============================================================================================================================
+  
+//=============================================== Tab Window Options ===========================================================
+
+
 document.addEventListener('visibilitychange',
 function(){
     if(document.visibilityState === "visible"){
@@ -50,6 +80,7 @@ function(){
     }
 });
 
+//==============================================================================================================================
 
 // <!-- typed js effect starts -->
     var typed = new Typed(".typing-text", {
