@@ -81,6 +81,7 @@ section{
 }
 .heading span{
   color: rgb(115, 3, 167);
+  text-shadow: 2px 1px 6px rgb(112, 112, 112);
 }
 header .logo{
   font-size: 1.9rem;
@@ -415,6 +416,7 @@ header .navbar ul li a:hover{
 }
 .about .row .content .box-container .box p span{
   color:#ff8800;
+  text-shadow: 1px 1px 5px rgb(173, 253, 43);
 }
 .resumebtn{
   margin-top: 6rem;
