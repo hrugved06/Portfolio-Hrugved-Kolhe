@@ -225,6 +225,7 @@ header .navbar ul li a:hover{
   font-size: 5rem;
   font-weight: 800;
   color: #ff5100;
+  text-shadow: 2px 1px 6px rgb(112, 112, 112);
 }
 .home .content p{
   font-size: 2.5rem;
@@ -877,7 +878,7 @@ header .navbar ul li a:hover{
   height: 4.5rem;
   width: 100%;
   padding-left: 1rem;
-  background: #ffd900;
+  background: #28d4d4;
 }
 .work .box-container .box .content .tag h3{
   font-size: 2rem;
