@@ -489,6 +489,13 @@ header .navbar ul li a:hover{
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+#tweet{
+  color: #ffffff;
+}
+#tweet:hover{
+  color: #000;
+}
+
 .quote-button{
   list-style:none;
   display: flex;
