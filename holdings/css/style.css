@@ -461,7 +461,7 @@ header .navbar ul li a:hover{
   background-color: rgb(208, 255, 190);
   border-radius: 10px;
   padding-top: 5px;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 }
 
 .quote_api h1 span{
@@ -485,16 +485,52 @@ header .navbar ul li a:hover{
 }
 
 #random_quote{
-  padding-bottom: 10px;
   color: #120044;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#get-activity{
-  font-size: 20px;
+.quote-button{
+  list-style:none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  line-height: 0;
+  padding: 0.5rem 1.1rem;
+  border-radius: .5em;
+  transition: 0.5s;
 }
 
-.quote-btn {
+.quote-button li {
+  display:inline-block;
+  margin-right:10px;
+  margin-top: 5px;
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+  background: #120044;
+  border: 2px solid rgb(230, 255, 4);
+  box-shadow: 0px 5px 5px rgba(48, 68, 247, .6);
+  padding: 0.5rem 1.1rem;
+  border-radius: .5em;
+}
+
+.quote-button li:hover{
+  background: #fcad37;
+  color: #000;
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: 0px 5px 10px rgba(48, 68, 247, .6);
+}
+
+.quote-button li:active{
+  background: #b2ff5b;
+  color: #000;
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: 0px 5px 10px rgba(48, 68, 247, .6);
+  transform: translateY(5px);
+}
+
+
+/* .quote-btn {
   position: relative;
   line-height: 0;
   padding: 0.5rem 1.1rem;
@@ -518,9 +554,9 @@ header .navbar ul li a:hover{
   border: 2px solid rgb(0, 0, 0);
   box-shadow: 0px 5px 10px rgba(48, 68, 247, .6);
   transform: translateY(5px);
-}
+} */
 
-.twitter-btn {
+/* .twitter-btn {
   position: relative;
   line-height: 0;
   padding: 0.2rem 1.1rem;
@@ -544,7 +580,7 @@ header .navbar ul li a:hover{
   border: 2px solid rgb(0, 0, 0);
   box-shadow: 0px 5px 10px rgba(48, 68, 247, .6);
   transform: translateY(10px);
-}
+} */
 
 /* Quote API Ends */
 
@@ -568,6 +604,7 @@ header .navbar ul li a:hover{
   .about .row .content .box-container{
     gap: 0;
   }
+
 }
 /* about media queries ends*/
 /* about section ends */
