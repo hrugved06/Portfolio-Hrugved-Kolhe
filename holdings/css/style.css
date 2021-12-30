@@ -217,6 +217,7 @@ header .navbar ul li a:hover{
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
 .home .content h3{
+  margin-top: 25px;
   font-size: 5rem;
   font-weight: 800;
   color: #070064;
@@ -330,13 +331,13 @@ header .navbar ul li a:hover{
 /* boy media queries starts*/
 @media(max-width:450px){
   .home .btn{
-    margin: 4rem 0;
+    margin: 2rem 0;
   }
   .socials{
     margin-top: 12rem;
   }
-  .home .image img{
-    margin-top: -12rem;
+  .home .content h3 {
+    margin-top: 25px;
   }
   .home .content p {
     font-size: 2.2rem;
@@ -517,7 +518,7 @@ header .navbar ul li a:hover{
   background: #120044;
   border: 2px solid rgb(230, 255, 4);
   box-shadow: 0px 5px 5px rgba(48, 68, 247, .6);
-  padding: 0.5rem 1.1rem;
+  padding: 0.5rem 0.7rem;
   border-radius: .5em;
 }
 
@@ -610,6 +611,10 @@ header .navbar ul li a:hover{
   }
   .about .row .content .box-container{
     gap: 0;
+  }
+  .resumebtn{
+    display: flex;
+    justify-content: center;
   }
 
 }
