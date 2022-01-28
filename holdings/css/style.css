@@ -1,6 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
 
+
+:root {
+	--red: #da2c4d;
+	--yellow: #f8ab37;
+	--green: #2ecc71;
+	--white: #ffffff;
+	--grey-light: #f2f7f9;
+	--grey: #ecedf3;
+	--black: #080808;
+	--black-blue: #1f2029;
+	--black-blue-light: #353746;
+	--black-blue-light-2: #404255;
+	--black-blue-light-3: #4b4d64;
+	--black-light: #424455;
+}
+
 *{
   margin: 0;
   padding: 0;
