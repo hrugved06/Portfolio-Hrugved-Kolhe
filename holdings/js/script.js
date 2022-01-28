@@ -119,11 +119,11 @@ document.onkeydown = function(e) {
      return false;
   }
   if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
-    alert ("Action not allowed");
+    alert ("Action not allowed by  the Owner");
      return false;
   }
   if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
-    alert ("Action not allowed");
+    alert ("Action not allowed by the Owner");
      return false;
   }
   if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
