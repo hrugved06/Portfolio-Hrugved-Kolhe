@@ -1,6 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
 
+:root {
+  --background: #f5efff;
+	--red: #da2c4d;
+	--orange: #ffae00;
+	--green: #2ecc71;
+	--white: #ffffff;
+	--grey-light: #f2f7f9;
+	--grey: #ecedf3;
+	--black: #000000;
+	--black-blue: #1f2029;
+	--black-blue-light: #353746;
+	--black-blue-light-2: #404255;
+	--black-blue-light-3: #4b4d64;
+	--black-light: #424455;
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -16,13 +32,13 @@ html{
   scroll-behavior: smooth;
 }
 body{
-  background: #f5efff;
+  background: var(--background);
   font-family: 'Poppins', sans-serif;
 }
 
 *::selection{
   background: #2b3dda;
-  color: #fff;
+  color: var(--white);
 }
 
 html{
@@ -58,7 +74,7 @@ section{
 }
 .heading{
   font-size: 3.5rem;
-  color: rgb(0, 0, 0);
+  color: var(--black);
   font-weight: 800;
   text-align: center;
 }
@@ -88,14 +104,14 @@ header .navbar li{
 }
 header .navbar ul li a{
   font-size: 1.57rem;
-  color: #ffffff;
+  color: var(--white);
   font-weight: 600;
   text-decoration: none;
   letter-spacing: 0.04rem;
 }
 header .navbar ul li a.active,
 header .navbar ul li a:hover{
-  color: #ffbb00;
+  color: #ffae00;
   border-bottom: .2rem solid #5a008f;
   padding: .5rem 0;
 }
@@ -136,15 +152,15 @@ header .navbar ul li a:hover{
     display: block;
     padding: 1rem;
     text-align: left;
-    color: #fff;
+    color: var(--white);
     font-size: 2rem;
   }
   header .navbar ul li a.active,
   header .navbar ul li a:hover{
     padding: 1rem;
-    color: #fff;
+    color: var(--white);
     border-radius: .5rem;
-    border-bottom: .5rem solid #ffbb00;
+    border-bottom: .5rem solid var(--orange);
   }
   .fa-times{
     transform: rotate(180deg);
@@ -175,7 +191,7 @@ header .navbar ul li a:hover{
   content: '';
   position: absolute;
   width: 6px;
-  background: #000000;
+  background: var(--black);
   top: 0;
   bottom: 0;
   left: 50%;
@@ -195,7 +211,7 @@ header .navbar ul li a:hover{
   width: 25px;
   height: 25px;
   right: -17px;
-  background-color: rgb(255, 255, 255);
+  background-color: var(--white);
   border: 4px solid #ffa600;
   top: 15px;
   border-radius: 50%;
@@ -221,7 +237,7 @@ header .navbar ul li a:hover{
   width: 0;
   z-index: 1;
   right: 30px;
-  border: medium solid #f68c09;
+  border: medium solid var(--orange);
   border-width: 10px 0 10px 10px;
   border-color: transparent transparent transparent #0921f6;
 }
@@ -234,7 +250,7 @@ header .navbar ul li a:hover{
   width: 0;
   z-index: 1;
   left: 30px;
-  border: medium solid #f68c09;
+  border: medium solid var(--orange);
   border-width: 10px 10px 10px 0;
   border-color: transparent #090df6 transparent transparent;
 }
@@ -274,7 +290,7 @@ header .navbar ul li a:hover{
   padding: 1.6rem 3rem;
   border-radius: .5em;
   transition: 0.5s;
-  color: #fff;
+  color: var(--white);
   background: #000853;
   border: 2px solid rgb(230, 255, 4);
   box-shadow: 0px 2px 4px rgb(20, 0, 92);
@@ -291,9 +307,9 @@ header .navbar ul li a:hover{
   transition: 0.3s;
 }
 .morebtn .btn:hover{
-  background: #ffffff;
-  color: #000;
-  border: 2px solid rgb(0, 0, 0);
+  background: var(--white);
+  color: var(--black);
+  border: 2px solid var(--black);
 }
 .morebtn .btn:hover i {
   transform: translateX(-10px);
@@ -311,9 +327,9 @@ header .navbar ul li a:hover{
   }
   .experience .container::before {
   left: 60px;
-  border: medium solid #f68c09;
+  border: medium solid var(--orange);
   border-width: 10px 10px 10px 0;
-  border-color: transparent #f68c09 transparent transparent;
+  border-color: transparent var(--orange) transparent transparent;
   }
   .experience .left::after {
     left: 15px;
@@ -349,7 +365,7 @@ header .navbar ul li a:hover{
 }
 .footer .box-container .box h3{
   font-size: 2.5rem;
-  color: #fff;
+  color: var(--white);
   padding-bottom: 1rem;
   font-weight: normal;
 }
@@ -361,7 +377,7 @@ header .navbar ul li a:hover{
 }
 .footer .box-container .box p i{
   padding-right: 1rem;
-  color: #ffae00;
+  color: var(--orange);
 }
 .footer .box-container .box a{
   font-size: 1.5rem;
@@ -370,7 +386,7 @@ header .navbar ul li a:hover{
   display: block;
 }
 .footer .box-container .box a:hover{
-  color: #ffd000;
+  color: var(--orange);
 }
 .footer .box-container .box .share{
   display: flex;
@@ -394,7 +410,7 @@ header .navbar ul li a:hover{
   background: transparent;
   transform: scale(1.1);
   border: .1rem solid rgb(180, 178, 178);
-  color: #ffae00;
+  color: var(--orange);
 }
 .footer .credit{
   padding: 1rem 0 0 0;
@@ -402,7 +418,7 @@ header .navbar ul li a:hover{
   font-size: 1.5rem;
   font-family: 'Nunito',sans-serif;
   font-weight: 600;
-  color: #fff;
+  color: var(--white);
   border-top: .1rem solid rgb(0, 147, 245);
 }
 .footer .credit a{
@@ -459,7 +475,7 @@ header .navbar ul li a:hover{
   right: 2rem;
   padding: 1rem 1.5rem;
   font-size: 2rem;
-  background: #ffae00;
+  background: var(--orange);
   border: 2px solid rgb(50, 0, 97);
   color: rgb(13, 0, 44);
   border-radius: 5rem;
