@@ -8,7 +8,7 @@
 	--orange: #ffae00;
 	--green: #2ecc71;
 	--white: #ffffff;
-	--grey-light: #f2f7f9;
+	--violet: #7303a7;
 	--grey: #ecedf3;
 	--black: #000000;
 	--black-blue: #1f2029;
@@ -732,7 +732,7 @@ header .navbar ul li a:hover{
 }
 .skills .container .col .bar .web:before{
   width: 70%;
-  background: #5b00c4;
+  background: var(--violet);
 }
 .skills .container .col .bar .python:before{
   width: 90%;
@@ -1244,7 +1244,7 @@ form i{
   position: absolute;
   top: 50%;
   left: 18px;
-  color: rgb(51, 51, 51);
+  color: var(--black);
   font-size: 17px;
   pointer-events: none;
   transform: translateY(-50%);
@@ -1268,11 +1268,11 @@ form .message textarea{
 .field input:focus,
 .message textarea:focus{
   padding-left: 47px;
-  border: 2px solid rgb(115, 3, 167);
+  border: 2px solid var(--violet);
 }
 .field input:focus ~ i,
 .message textarea:focus ~ i{
-  color: rgb(115, 3, 167);
+  color: var(--violet);
 }
 form .message{
   position: relative;
@@ -1358,7 +1358,7 @@ form .button-area{
 /* footer section starts */
 .footer{
   min-height: auto;
-  padding-top: 0;
+  padding: 0 9%;
   background: rgb(0, 1, 43);
 }
 .footer .box-container{
@@ -1420,7 +1420,7 @@ form .button-area{
   color: var(--orange);
 }
 .footer .credit{
-  padding: 1rem 0 0 0;
+  padding: 1rem 0;
   text-align: center;
   font-size: 1.5rem;
   font-family: 'Nunito',sans-serif;
@@ -1483,7 +1483,7 @@ form .button-area{
   padding: 1rem 1.5rem;
   font-size: 2rem;
   background: var(--orange);
-  border: 2px solid rgb(50, 0, 97);
+  border: 2px solid var(--violet);
   color: rgb(4, 0, 44);
   border-radius: 50%;
   transition: 1s linear;
