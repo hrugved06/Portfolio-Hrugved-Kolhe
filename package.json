@@ -1,0 +1,45 @@
+{
+  "name": "portfolio-hrugved-kolhe",
+  "version": "1.0.0",
+  "description": "Hrugved's Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrugved06/Portfolio-Hrugved-Kolhe.git"
+  },
+  "keywords": [
+    "Hrugved",
+    "Kolhe",
+    "Hrugved",
+    "Machine",
+    "Learning",
+    "portfolio",
+    "Portfolio",
+    "Hrugved",
+    "Kolhe",
+    "Data",
+    "Scientist",
+    "Web",
+    "Developer",
+    "portfolio",
+    "website",
+    "website",
+    "Hrugved",
+    "Kolhe",
+    "website",
+    "Deep",
+    "Learning",
+    "Github",
+    "Open",
+    "Source"
+  ],
+  "author": "Hrugved Kolhe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hrugved06/Portfolio-Hrugved-Kolhe/issues"
+  },
+  "homepage": "https://github.com/hrugved06/Portfolio-Hrugved-Kolhe#home"
+}
