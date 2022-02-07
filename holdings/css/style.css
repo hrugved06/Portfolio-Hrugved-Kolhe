@@ -6,9 +6,13 @@
   --background: #f7f7f7;
 	--red: #da2c4d;
 	--orange: #ffae00;
+  --yellow: #fffb00;
+  --cyanyellow: #c8f500;
 	--green: #2ecc71;
 	--white: #ffffff;
 	--violet: #7303a7;
+  --purple: #6a00f5;
+  --prussian: #3044f799;
 	--grey: #ecedf3;
 	--black: #000000;
 	--black-blue: #1f2029;
@@ -103,13 +107,13 @@ header .logo{
   font-size: 1.9rem;
   font-weight: 800;
   text-decoration: none;
-  color: #c8f500;
+  color: var(--cyanyellow);
 }
 header .logo i {
   font-size: 2.2rem;
 }
 header .logo:hover {
-  color: #6a00f5;
+  color: var(--purple);
 }
 header .navbar ul{
   list-style: none;
@@ -140,7 +144,7 @@ header .navbar ul li a:hover{
 #menu{
   font-size: 3rem;
   cursor: pointer;
-  color: rgb(255, 251, 0);
+  color: var(--yellow);
   display: none;
 }
 @media(max-width:768px){
@@ -179,7 +183,7 @@ header .navbar ul li a:hover{
     padding: 1rem;
     color: var(--white);
     border-radius: .5rem;
-    border-bottom: .5rem solid #fffb01;
+    border-bottom: .5rem solid var(--yellow);
   }
   .fa-times{
     transform: rotate(180deg);
@@ -306,7 +310,7 @@ header .navbar ul li a:hover{
   font-size:2rem;
   display:inline-block;
   line-height:44px;
-  color: #d9ff00;
+  color: var(--yellow);
   background-color:var(--black-blue);
   width:44px;
   height:44px;
@@ -325,10 +329,10 @@ header .navbar ul li a:hover{
   background-color: var(--black)
 }
 .social-icons a.twitter:hover {
-  background-color:#0075d4
+  background-color:#1DA1F2
 }
 .social-icons a.linkedin:hover {
-  background-color:#0c8ef8
+  background-color:#0077b5
 }  
 .social-icons a.YouTube:hover {
   background-color: var(--red)
@@ -337,10 +341,10 @@ header .navbar ul li a:hover{
   background-color:#5222ff
 } 
 .social-icons a.Discord:hover {
-  background-color:#3f0afc
+  background-color:#738ADB
 }
 .social-icons a.instagram:hover {
-    background-color:#ad0074
+    background-color:#bc2a8d
 }
 /* social icons end */
 
@@ -394,7 +398,7 @@ header .navbar ul li a:hover{
   margin: 4rem;
   width: 30rem;
   border-radius: 5%;
-  box-shadow: 0 5px 10px rgba(48, 68, 247, .6);
+  box-shadow: 0 5px 10px var(--prussian);
   mix-blend-mode:luminosity;
   transition: .3s;
   cursor: pointer;
@@ -511,8 +515,8 @@ header .navbar ul li a:hover{
   font-size: 1.5rem;
   color: var(--white);
   background: #120044;
-  border: 2px solid rgb(230, 255, 4);
-  box-shadow: 0px 5px 5px rgba(48, 68, 247, .6);
+  border: 2px solid var(--yellow);
+  box-shadow: 0px 5px 5px var(--prussian);
   padding: 0.5rem 0.7rem;
   border-radius: .5em;
 }
@@ -521,14 +525,14 @@ header .navbar ul li a:hover{
   background: var(--orange);
   color: var(--black);
   border: 2px solid var(--black);
-  box-shadow: 0px 5px 10px rgba(48, 68, 247, .6);
+  box-shadow: 0px 5px 10px var(--prussian);
 }
 
 .quote-button li:active{
   background: #b2ff5b;
   color: var(--black);
   border: 2px solid var(--black);
-  box-shadow: 0px 5px 10px rgba(48, 68, 247, .6);
+  box-shadow: 0px 5px 10px var(--prussian);
   transform: translateY(5px);
 }
 
@@ -650,7 +654,7 @@ header .navbar ul li a:hover{
   color: var(--white);
 }
 .skills .heading span{
-  color: rgb(255, 230, 0);
+  color: var(--yellow);
 }
 .skills .container{
   background: var(--black-blue);
@@ -736,11 +740,11 @@ header .navbar ul li a:hover{
 }
 .skills .container .col .bar .python:before{
   width: 90%;
-  background: #f7d203;
+  background: var(--yellow);
 }
 .skills .container .col .bar .git:before{
   width: 75%;
-  background: #2fdf7e;
+  background: #00ff22;
 }
 .skills .container .col .bar .github:before{
   width: 90%;
@@ -908,7 +912,7 @@ header .navbar ul li a:hover{
   padding: 1rem;
 }
 .work .heading span{
-  color: rgb(229, 255, 0);
+  color: var(--yellow);
 }
 .work .box-container{
   display: flex;
@@ -997,7 +1001,7 @@ header .navbar ul li a:hover{
   transition: 0.5s;
   color: var(--white);
   font-weight: 700;
-  border: 2px solid rgb(217, 255, 0);
+  border: 2px solid var(--cyanyellow);
   box-shadow: 0px 5px 10px rgba(0, 22, 221, 0.4);
   text-align: center;
 }
@@ -1132,7 +1136,7 @@ header .navbar ul li a:hover{
   transition: 0.5s;
   color: var(--white);
   background: #120044;
-  border: 2px solid rgb(230, 255, 4);
+  border: 2px solid var(--yellow);
   box-shadow: 0px 5px 10px rgba(48, 68, 247, .6);
   text-align: center;
 }
@@ -1149,7 +1153,7 @@ header .navbar ul li a:hover{
 .morebtn .btn:hover{
   background: #fceacf;
   color: var(--black);
-  border: 2px solid rgb(0, 0, 0);
+  border: 2px solid var(--black);
 }
 .morebtn .btn:hover i {
   transform: translateX(10px);
@@ -1207,7 +1211,7 @@ header .navbar ul li a:hover{
   background: var(--white);
   border-radius: 1.5rem;
   margin: 2rem 5rem;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 5px 10px var(--black)
 }
 .contact .container .content{
   display: flex;
@@ -1308,14 +1312,14 @@ form .button-area{
   border-radius: 5px;
   padding: 13px 25px;
   background: #160079;
-  border: 2px solid rgb(229, 255, 0);
+  border: 2px solid var(--yellow);
   box-shadow: 0px 5px 10px rgba(48, 68, 247, .6);
   transition: 0.3s ease;
   font-family: 'Nunito',sans-serif;
 }
 .button-area button:hover{
-  background: #421cecf5;
-  border: 2px solid rgb(0, 0, 0);
+  background: var(--purple);
+  border: 2px solid var(--black);
 }
 .button-area span{
   font-size: 17px;
@@ -1332,6 +1336,39 @@ form .button-area{
 .button-area button:hover i{
   left: 10px;
 }
+
+.contact .container .content .thankyou_message{
+  display: none;
+  border:8px solid var(--orange);
+  border-radius: 40px;
+  padding: 20px;
+}
+
+.contact .container .content .thankyou_message span{
+  display: flex;
+  justify-content: center;
+  color: var(--purple);
+  font-family: 'Poppins', sans-serif;
+  font-size: x-large;
+  font-weight: bolder;
+  padding: 10px;
+}
+
+.contact .container .content .thankyou_message p{
+  display: flex;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: large;
+  font-weight: bolder;
+}
+
+.contact .container .content .thankyou_message img{
+  display: flex;
+  margin: auto;
+  height: 230px;
+  width: 80%;
+}
+
 /* contact section media queries starts */
 @media (max-width:900px) {
   .contact{
