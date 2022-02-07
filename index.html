@@ -110,7 +110,7 @@
     <div class="row">
 
     <div class="image">
-        <img draggable="false" class="tilt" src="./holdings/images/ME3.png" alt="Hrugved Kolhe">
+        <img draggable="false" class="tilt" title="Hello👋" src="./holdings/images/ME3.png" alt="Hrugved Kolhe">
     </div>
     <div class="content">
         <h3>Hello, I'm Hrugved</h3>
@@ -540,9 +540,10 @@
       <div class="image-box">
         <img draggable="false" src="./holdings/images/contacthk.png" alt="">
       </div>
-    <form action="https://discord.gg/5RmWdZKpe6" target="_blank">
+      <form class="gform pure-form pure-form-stacked" method="POST" data-email="sarfarazkumar123@gmail.com"
+      action="https://script.google.com/macros/s/AKfycbzFfsshhNfv_0jpFAKargN2I78OEKlZkDp6aTzKwJkJY8eeAsKLMpr63s6lvjYueqYfBQ/exec" target="_blank">
       
-      <div class="form-group">
+      <div class="form-elements form-group">
         <div class="field">
           <input type="text" name="name" placeholder="Name" required>
           <i class='fas fa-user-tie'></i>
@@ -552,20 +553,29 @@
           <i class='fas fa-envelope-open'></i>
         </div>
         <div class="field">
-          <input type="text" name="phone" placeholder="Phone">
+          <input type="text" name="phone" placeholder="Phone (Optional)">
           <i class='fas fa-mobile'></i>
         </div>
         <div class="message">
-        <textarea placeholder="Message" name="message" required></textarea>
-        <i class="fas fa-comments"></i>
+          <textarea name="message" placeholder="Message" required></textarea>
+          <i class="fas fa-comments"></i>
         </div>
+        
+        <div class="button-area">
+          <button type="submit">
+            Contact Me <i class="fa fa-paper-plane"></i></button>
         </div>
-      <div class="button-area">
-        <button type="submit" title="I'm afraid, this service is not available right now.. Still, you can contact me via Live Chat!">
-          Contact Me <i class="fa fa-paper-plane"></i></button>
       </div>
+
+      <!-- Thankyou Message Start -->
+      <div class="thankyou_message">
+        <span>Message Sent!</span>
+        <p>📭Thanks for contacting📭</p>
+        <img draggable="false" src="./holdings/images/msgsent.gif" alt="">
+      </div>
+      <!-- Thankyou Message End -->
     </form>
-  </div>
+    </div>
   </div>
 </section>
 <!-- contact section ends -->
@@ -631,6 +641,9 @@
 <!-- particle.js links -->
 <script src="./holdings/js/particles.min.js"></script>
 <script src="./holdings/js/app.js"></script>
+
+<!-- Animated icons -->
+<script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script>
 
 <!-- vanilla tilt.js links -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
