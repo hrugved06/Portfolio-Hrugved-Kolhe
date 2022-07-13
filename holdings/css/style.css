@@ -1407,16 +1407,24 @@ form .button-area{
   flex: 1 1 25rem;
   margin: 2.5rem;
 }
+
+.footer .box-container .row .column{
+    width: 50%;
+    float: left;
+}
+
 .footer .box-container .box h3{
   font-size: 2.5rem;
   color: var(--white);
   padding-bottom: 1rem;
   font-weight: normal;
+  text-align: center;
 }
 .footer .box-container .box p{
   font-size: 1.5rem;
   color: #ccc;
   padding: .7rem 0;
+  text-align: justify;
   text-transform: none;
 }
 .footer .box-container .box p i{
