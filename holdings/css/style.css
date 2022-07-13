@@ -1407,17 +1407,6 @@ form .button-area{
   flex: 1 1 25rem;
   margin: 2.5rem;
 }
-
-.footer .box-container .links{
-  /* For links division */
-  padding: 0 35px;
-}
-
-.footer .box-container .row .column{
-    width: 50%;
-    float: left;
-} 
-
 .footer .box-container .box h3{
   font-size: 2.5rem;
   color: var(--white);
@@ -1428,7 +1417,6 @@ form .button-area{
   font-size: 1.5rem;
   color: #ccc;
   padding: .7rem 0;
-  text-align: justify;
   text-transform: none;
 }
 .footer .box-container .box p i{
@@ -1468,7 +1456,6 @@ form .button-area{
   border: .1rem solid rgb(180, 178, 178);
   color: var(--orange);
 }
-
 .footer .credit{
   padding: 1rem 0;
   text-align: center;
