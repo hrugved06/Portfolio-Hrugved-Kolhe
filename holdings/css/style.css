@@ -19,6 +19,7 @@
 	--black-blue-light: #353746;
 	--black-blue-light-2: #4b4d64;
 	--black-light: #424455;
+  --footer-blue: #00012b;
 }
 
 *{
@@ -425,6 +426,7 @@ header .navbar ul li a:hover{
   margin-top: 1.5rem;
   font-family: 'Nunito';
   font-weight: 600;
+  text-align: justify;
 }
 .about .row .content .box-container{
   display: flex;
@@ -779,7 +781,7 @@ header .navbar ul li a:hover{
     padding-top: 2rem;
   }
   .skills .container .col{
-    margin-top: 5px;
+    margin: 0;
     width: 100%;
   }
   .skills .container .col .bar{
@@ -1396,7 +1398,7 @@ form .button-area{
 .footer{
   min-height: auto;
   padding: 0 9%;
-  background: rgb(0, 1, 43);
+  background: var(--footer-blue);
 }
 .footer .box-container{
   display: flex;
@@ -1409,8 +1411,10 @@ form .button-area{
 }
 
 .footer .box-container .row .column{
-    width: 50%;
-    float: left;
+  display: grid;
+  width: 50%;
+  float: left;
+  justify-content: center;
 }
 
 .footer .box-container .box h3{
@@ -1422,7 +1426,7 @@ form .button-area{
 }
 .footer .box-container .box p{
   font-size: 1.5rem;
-  color: #ccc;
+  color: var(--white);
   padding: .7rem 0;
   text-align: justify;
   text-transform: none;
@@ -1431,9 +1435,13 @@ form .button-area{
   padding-right: 1rem;
   color: var(--orange);
 }
+.footer .box-container .box .anchors{
+  display: grid;
+  justify-content: center;
+}
 .footer .box-container .box a{
   font-size: 1.5rem;
-  color: rgb(238, 238, 238);
+  color: var(--white);
   padding: .3rem 0;
   display: block;
 }
@@ -1443,19 +1451,20 @@ form .button-area{
 .footer .box-container .box .share{
   display: flex;
   flex-wrap: wrap;
-  padding: 1rem 0;
+  justify-content: center;
+  padding: 2rem 0;
+  list-style: none;
 }
 .footer .box-container .box .share a{
   height: 4rem;
   width: 4rem;
   padding: 1rem;
-  text-align: center;
   border-radius: 5rem;
   font-size: 1.7rem;
   margin-right: 1rem;
   transition: .2s;
-  background: rgb(230, 230, 230);
-  color: #02094b;
+  background: var(--white);
+  color: var(--footer-blue);
   border: none;
 }
 .footer .box-container .box .share a:hover{
@@ -1482,16 +1491,11 @@ form .button-area{
     font-size: 1.5rem;
     animation: pound .35s infinite alternate;
 }
-@-webkit-keyframes pound{
-  to{
-    transform: scale(1.1);
+/* @media(max-width:500px){
+  .footer .box-container .box .share a{
+    padding: 1.2rem;
   }
-}
-@keyframes pound{
-  to{
-    transform: scale(1.1);
-}
-}
+} */
 @media(max-width:450px){
   .footer .box-container .box{
     margin: 1.5rem;
@@ -1504,6 +1508,17 @@ form .button-area{
   }
 }
 /* footer section ends */
+
+@-webkit-keyframes pound{
+  to{
+    transform: scale(1.1);
+  }
+}
+@keyframes pound{
+  to{
+    transform: scale(1.1);
+  }
+}
 
 /* common media queries starts*/
 @media(max-width:450px){
