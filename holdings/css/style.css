@@ -733,7 +733,7 @@ header .navbar ul li a:hover{
   background: var(--orange);
 }
 .skills .container .col .bar .qc:before{
-  width: 65%;
+  width: 75%;
   background: #3d10dd;
 }
 .skills .container .col .bar .web:before{
@@ -756,11 +756,11 @@ header .navbar ul li a:hover{
   width: 80%;
   background: #1771e7;
 }
-.skills .container .col .bar .jupyter:before{
-  width: 90%;
+.skills .container .col .bar .SQL:before{
+  width: 80%;
   background: var(--orange);
 }
-.skills .container .col .bar .mentoring:before{
+.skills .container .col .bar .DS:before{
   width: 80%;
   background: #00aa09;
 }
